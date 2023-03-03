@@ -3,7 +3,7 @@
 const a = {name: "Marcos"}
 
 const b = a
-// As duas constattntes apontam para o mesmo lugaar na memoria
+// As duas constantes apontam para o mesmo lugar na memoria
 // Se mudarmos o valor do nome ambos vão sentir a diferença, isso é atribuição por referencia
 
 let  c = 3

@@ -7,3 +7,13 @@ valor = null
 console.log(valor)
 // Não é legal aatribuir undefined
 
+const produto = {}
+console.log(produto.preco) //udefined
+
+produto.preco = 3.5
+console.log(produto)
+
+produto.preco = undefined // Evitar fazer isso
+console.log(produto.preco)
+
+produto.preco = null // Produto não tem valor
